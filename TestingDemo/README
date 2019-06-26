@@ -1,0 +1,7 @@
+Make shure thats tests run successfully in your environment, before launch on app center.
+
+- To execute with local configuration -> mvn test -Dlocal.tests=true and change feature path to src/test/resources/feature
+
+- To prepare execution on app center -> change feature path to test-classes/features
+
+- To app center reference (https://docs.microsoft.com/en-us/appcenter/test-cloud/preparing-for-upload/appium)

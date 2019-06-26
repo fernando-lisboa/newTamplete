@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.abi.ontap.automation.integration.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.285 s <<< FAILURE! - in com.abi.ontap.automation.integration.RunCucumberTest
+initializationError(com.abi.ontap.automation.integration.RunCucumberTest)  Time elapsed: 0.013 s  <<< ERROR!
+cucumber.runtime.CucumberException: Failed to parse resource at: file:src/test/resources/features/com/abi/ontap/automation/integration/is_loginInicial.feature
+Caused by: gherkin.ParserException$CompositeParserException: 
+Parser errors:
+(22:5): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ExamplesLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'he button Login'
+

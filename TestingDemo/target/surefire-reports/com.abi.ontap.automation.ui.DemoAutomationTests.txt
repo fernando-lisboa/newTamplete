@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.abi.ontap.automation.ui.DemoAutomationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.abi.ontap.automation.ui.DemoAutomationTests
+calculatorTest(com.abi.ontap.automation.ui.DemoAutomationTests)  Time elapsed: 0 s  <<< ERROR!
+io.appium.java_client.service.local.InvalidNodeJSInstance: Node.js is not installed!
+	at com.abi.ontap.automation.ui.DemoAutomationTests.init(DemoAutomationTests.java:21)
+Caused by: java.lang.NullPointerException: Unable to find executable for: node.exe
+	at com.abi.ontap.automation.ui.DemoAutomationTests.init(DemoAutomationTests.java:21)
+
+calculatorTest(com.abi.ontap.automation.ui.DemoAutomationTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.abi.ontap.automation.ui.DemoAutomationTests.TearDown(DemoAutomationTests.java:26)
+
